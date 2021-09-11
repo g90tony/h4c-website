@@ -1,0 +1,49 @@
+.custom-hero-container {
+  height: 100%;
+  width: 100vw;
+
+  position: relative;
+}
+
+.custom-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.custom-hero-text-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, #00000000, var(--dark));
+  background-size: cover;
+  z-index: 1;
+
+  position: relative;
+  padding: 20px 50px;
+}
+
+.custom-hero-logo {
+  width: 20em;
+  object-fit: cover;
+  /* margin: auto -30px; */
+  margin-bottom: 0;
+}
+
+.custom-hero-title {
+  margin-top: 0;
+  font-size: 72px;
+  width: 70%;
+  font-weight: 700;
+  color: var(--alternate);
+}
+
+.custom-hero-subtext {
+  font-size: 24px;
+  width: 60%;
+  color: var(--secondary);
+}
