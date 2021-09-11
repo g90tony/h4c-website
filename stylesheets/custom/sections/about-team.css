@@ -1,0 +1,72 @@
+.custom-about-team-container {
+  padding: 20px 50px;
+  margin: 10px 20px;
+
+  width: 100%;
+}
+
+.custom-about-team-text-container {
+  margin: 10px 20px;
+  padding: 20px;
+  width: 80%;
+}
+
+.custom-about-team-members {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  background-image: url("../../../assets/big-item-background.svg");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-about-team-members-founder {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-about-team-members-founder-item {
+  text-align: center;
+  width: 100%;
+}
+.custom-about-team-members-board-item {
+  text-align: center;
+  width: 225px;
+  margin: 10px 20px;
+}
+
+.custom-about-team-members-founder-image {
+  width: 250px;
+  object-fit: contain;
+}
+
+.custom-about-team-members-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.custom-about-team-members-bio {
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.custom-about-team-members-board {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.custom-about-team-members-board-image {
+  width: 150px;
+}
