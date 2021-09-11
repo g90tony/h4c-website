@@ -1,0 +1,28 @@
+.custom-footer-container {
+  background-color: var(--primary);
+  padding: 20px 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.custom-footer-legal {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.custom-footer-text {
+  color: var(--white);
+}
+
+.custom-footer-links {
+  font-size: 18px;
+}
+
+.custom-footer-link {
+  text-decoration: none !important;
+  color: var(--secondary) !important;
+  font-weight: 600;
+}
