@@ -1,0 +1,35 @@
+.custom-about-us-container {
+  padding: 20px 50px;
+  width: 100%;
+}
+
+.custom-about-us-box {
+  background-image: url("../../../assets/big-item-background.svg");
+  background-repeat: no-repeat;
+
+  width: 70%;
+
+  margin-left: auto;
+
+  padding: 20px;
+  border-radius: 10px;
+
+  text-align: end;
+}
+
+.custom-about-us-body-container {
+  width: 90%;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.custom-about-us-body {
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.custom-about-us-body .custom-about-us-pillars-container {
+  width: 90%;
+  color: #000000;
+  text-align: end;
+}
