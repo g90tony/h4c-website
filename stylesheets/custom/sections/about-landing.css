@@ -1,0 +1,39 @@
+.custom-about-landing-container {
+  padding: 0px 50px 20px 50px;
+
+  width: 100%;
+  height: max-content;
+}
+
+.custom-about-landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-landing-header {
+  font-size: 48px;
+  width: 60%;
+  text-align: end;
+  color: var(--primary);
+}
+
+.custom-landing-subtext {
+  font-size: 24px;
+  width: 60%;
+  text-align: end;
+  color: var(--secondary);
+}
+
+.custom-about-landing-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start !important;
+}
+
+.custom-landing-image {
+  width: 100%;
+  object-fit: contain;
+}
