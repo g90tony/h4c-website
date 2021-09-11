@@ -29,3 +29,9 @@
   font-weight: 700;
   color: var(--secondary) !important;
 }
+
+.custom-nav-link-active {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary) !important;
+}

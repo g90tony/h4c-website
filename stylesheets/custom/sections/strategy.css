@@ -17,7 +17,7 @@
 
   border-radius: 10px;
 
-  background-image: url("../../assets/item-background.svg");
+  background-image: url("../../../assets/item-background.svg");
   background-size: cover;
   /* background-repeat: no-repeat; */
 }

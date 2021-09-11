@@ -1,0 +1,26 @@
+.custom-two-equal-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  grid-template-areas: column1 column2;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-two-equal-column-1 {
+  height: 100%;
+  width: 100%;
+  grid-area: column1;
+}
+.custom-two-equal-column-2 {
+  height: 100%;
+  width: 100%;
+  grid-area: column2;
+}
+
+@media screen and (max-width: 576px) {
+  .custom-two-equal-columns {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+  }
+}
