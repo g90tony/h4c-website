@@ -1,0 +1,29 @@
+.custom-gallery-container {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.custom-gallery-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.custom-gallery-item {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px;
+
+  border-radius: 10px;
+}
+
+.custom-gallery-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+  object-fit: cover;
+  object-position: center;
+}
