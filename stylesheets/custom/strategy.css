@@ -1,0 +1,36 @@
+.custom-strategy-container {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.custom-strategy-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.custom-strategy-item {
+  max-width: 300px;
+  height: 200px;
+  margin: 10px 20px;
+
+  border-radius: 10px;
+
+  background-image: url("../../assets/item-background.svg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.custom-strategy-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primary);
+  text-align: center;
+}
+
+.custom-strategy-description {
+  width: 80%;
+  font-size: 14px;
+  text-align: center;
+}
