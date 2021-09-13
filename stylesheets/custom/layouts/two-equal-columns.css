@@ -28,11 +28,16 @@
   .custom-two-equal-columns {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas:
+      "col_2"
+      "col_1";
   }
 
   .custom-two-equal-column-1 {
     flex-flow: column wrap;
     width: 100%;
+    height: min-content;
+    margin: 0 auto;
   }
   .custom-two-equal-column-2 {
     flex-flow: column wrap;
