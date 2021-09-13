@@ -37,10 +37,23 @@
 }
 
 @media screen and (max-width: 576px) {
+  .custom-about-us-container {
+    padding: 20px;
+  }
+  .custom-about-us-body-container {
+    width: 100%;
+    margin-left: 0px;
+  }
   .custom-about-us-box {
     width: 100%;
     height: 100%;
 
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .custom-about-us-body .custom-about-us-pillars-container {
+    width: 100%;
     text-align: center;
   }
 }

@@ -31,6 +31,7 @@
     grid-template-areas:
       "col_2"
       "col_1";
+    width: 100%;
   }
 
   .custom-two-equal-column-1 {

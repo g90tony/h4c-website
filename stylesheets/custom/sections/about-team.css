@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 576px) {
   .custom-about-team-container {
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
   }
   .custom-about-team-text-container {
