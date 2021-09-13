@@ -1,6 +1,6 @@
 .custom-hero-container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 
   position: relative;
 }
@@ -19,7 +19,7 @@
 .custom-hero-text-container {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to left, #00000000, var(--dark));
+  background-image: linear-gradient(to left, #3b2e2165, var(--dark));
   background-size: cover;
   z-index: 1;
 
@@ -46,4 +46,20 @@
   font-size: 24px;
   width: 60%;
   color: var(--secondary);
+}
+
+@media screen and (max-width: 576px) {
+  .custom-hero-title {
+    margin-top: 0;
+    font-size: 48px;
+    width: 100%;
+    font-weight: 800;
+    color: var(--alternate);
+  }
+  .custom-hero-subtext {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    color: var(--secondary);
+  }
 }
