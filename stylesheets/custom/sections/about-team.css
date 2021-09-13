@@ -1,12 +1,11 @@
 .custom-about-team-container {
   padding: 20px 50px;
-  margin: 10px 20px;
 
   width: 100%;
 }
 
 .custom-about-team-text-container {
-  margin: 10px 20px;
+  /* margin: 10px 20px; */
   padding: 20px;
   width: 80%;
 }
@@ -22,6 +21,7 @@
   width: 80%;
 
   padding: 20px;
+  margin: 0 auto;
   border-radius: 10px;
 }
 
@@ -40,8 +40,8 @@
 }
 .custom-about-team-members-board-item {
   text-align: center;
-  width: 225px;
-  margin: 10px 20px;
+  width: 200px;
+  margin: 10px;
 }
 
 .custom-about-team-members-founder-image {
@@ -69,4 +69,26 @@
 
 .custom-about-team-members-board-image {
   width: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .custom-about-team-container {
+    padding: 20px;
+    width: 100%;
+  }
+  .custom-about-team-text-container {
+    width: 100%;
+  }
+  .custom-about-team-members {
+    width: 100%;
+    margin: 0;
+  }
+
+  .custom-about-team-members-founder {
+    width: 100%;
+  }
+
+  .custom-about-team-members-founder-image {
+    padding: 20px;
+  }
 }
