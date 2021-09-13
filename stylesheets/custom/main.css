@@ -40,3 +40,13 @@
 .custom-body-list-item span {
   font-weight: 700;
 }
+
+@media screen and (max-width: 576px) {
+  .custom-section-intro {
+    padding: 20px;
+  }
+
+  .custom-section-intro-text {
+    width: 100%;
+  }
+}

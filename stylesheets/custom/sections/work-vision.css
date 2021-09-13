@@ -56,3 +56,16 @@
   font-size: 14px !important;
   font-weight: 500;
 }
+
+@media screen and (max-width: 576px) {
+  .custom-work-vision-text-container {
+    width: 100%;
+
+    text-align: center;
+  }
+  .custom-work-vision-text-alt-container {
+    width: 100%;
+
+    text-align: center;
+  }
+}
