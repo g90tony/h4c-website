@@ -7,10 +7,12 @@
     <title>Hope for Communities: Our Gallery</title>
     <!-- Custom stylesheets -->
     <link rel="stylesheet" href="stylesheets/custom/main.css" />
-    <link rel="stylesheet" href="stylesheets/custom/nav.css" />
-    <link rel="stylesheet" href="stylesheets/custom/footer.css" />
+    <link rel="stylesheet" href="stylesheets/custom/fragments/nav.css" />
+    <link rel="stylesheet" href="stylesheets/custom/fragments/footer.css" />
+    <link rel="stylesheet" href="stylesheets/custom/fragments/gallery.css" />
+    <link rel="stylesheet" href="stylesheets/custom/fragments/partner.css" />
     <!-- Bootstrap stylesheets -->
-    <link rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="stylesheets/bootstrap/bootstrap.css" />
     <!-- Bootstrap icons -->
     <link
       rel="stylesheet"
@@ -43,22 +45,87 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a
-              class="nav-link custom-nav-link mx-3 active"
-              aria-current="page"
-              href="#"
-              >Home</a
+            <a class="nav-link custom-nav-link mx-3" href="/index.html">Home</a>
+            <a class="nav-link custom-nav-link mx-3" href="/about.html"
+              >About Us</a
             >
-            <a class="nav-link custom-nav-link mx-3" href="#">About</a>
-            <a class="nav-link custom-nav-link mx-3" href="#">Our Work</a>
-            <a class="nav-link custom-nav-link mx-3">Impact Stories</a>
-            <a class="nav-link custom-nav-link mx-3">Gallery</a>
+            <a class="nav-link custom-nav-link mx-3" href="/work.html"
+              >Our Work</a
+            >
+            <a class="nav-link custom-nav-link mx-3" href="/stories.html"
+              >Impact Stories</a
+            >
+            <a
+              class="nav-link custom-nav-link-active mx-3"
+              aria-current="page"
+              href="/gallery.html"
+              >Gallery</a
+            >
+            <a class="nav-link custom-nav-link mx-3" href="/contact.html"
+              >Contact Us</a
+            >
           </div>
         </div>
       </div>
     </nav>
 
     <!-- xxx-------------------------- Navigation ---------------------------------xxx -->
+
+    <!-- ----------------------------- Gallery Section ------------------------------- -->
+
+    <div class="custom-gallery-container">
+      <h1 class="custom-section-header my-3">Our Gallery</h1>
+
+      <div class="custom-gallery-grid">
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_1.png" alt="" class="custom-gallery-image" />
+        </div>
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_2.png" alt="" class="custom-gallery-image" />
+        </div>
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_3.png" alt="" class="custom-gallery-image" />
+        </div>
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_4.png" alt="" class="custom-gallery-image" />
+        </div>
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_5.png" alt="" class="custom-gallery-image" />
+        </div>
+        <div class="custom-gallery-item">
+          <img src="assets/gallery_6.png" alt="" class="custom-gallery-image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- xxx-------------------------- Gallery Section ----------------------------xxx -->
+
+    <!-- ----------------------------- Partner with us ------------------------------- -->
+
+    <div class="custom-partner-container">
+      <div class="custom-partner-text-container">
+        <h1 class="custom-partner-header">Partner with us</h1>
+        <p class="custom-partner-body">
+          Would you like to partner with us and sparking hope in our
+          communities. Fill in your email below and we will contact a
+          representative to get you started.
+        </p>
+        <form action="POST" class="custom-partner-form" id="partnerSubmitForm">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email here..."
+            class="custom-partner-form-input"
+          />
+          <button type="submit" class="custom-partner-form-button">
+            Partner with us
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- xxx-------------------------- Partner with us ----------------------------xxx -->
 
     <!-- ----------------------------- Footer ---------------------------------------- -->
     <div
