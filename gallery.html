@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hope for Communities: Our Gallery</title>
-    <base href="/h4c-website/" />
+    <link rel="icon" href="./favicon.ico" />
+
     <!-- Custom stylesheets -->
     <link rel="stylesheet" href="./stylesheets/custom/main.css" />
     <link rel="stylesheet" href="./stylesheets/custom/fragments/nav.css" />
@@ -77,26 +78,7 @@
     <div class="custom-gallery-container">
       <h1 class="custom-section-header my-3">Our Gallery</h1>
 
-      <div class="custom-gallery-grid">
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_1.png" alt="" class="custom-gallery-image" />
-        </div>
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_2.png" alt="" class="custom-gallery-image" />
-        </div>
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_3.png" alt="" class="custom-gallery-image" />
-        </div>
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_4.png" alt="" class="custom-gallery-image" />
-        </div>
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_5.png" alt="" class="custom-gallery-image" />
-        </div>
-        <div class="custom-gallery-item">
-          <img src="assets/gallery_6.png" alt="" class="custom-gallery-image" />
-        </div>
-      </div>
+      <div class="custom-gallery-grid" id="galleryPageGrid"></div>
     </div>
 
     <!-- xxx-------------------------- Gallery Section ----------------------------xxx -->
@@ -158,12 +140,12 @@
       </div>
     </div>
     <!-- xxx-------------------------- Footer -------------------------------------xxx -->
-    <!-- Bootstrap javascript scripts -->
-    <script src="./cloudinary-core/cloudinary-core.js"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- ---------------------Bootstrap javascript scripts---------------------------- -->
     <script src="./javascript/bootstrap/bootstrap.bundle.js"></script>
-    <script src="./lodash/lodash.js"></script>
     <script src="./javascript/bootstrap/bootstrap.js"></script>
-    <script src="./javascript/custom/api/cloudinary.js"></script>
-    <script src="./javascript/custom/workers/gallery.js"></script>
+    <!-- ---------------------------- Custom javascript scripts ---------------------- -->
+    <script src="./javascript/custom/api/gallery-page.js"></script>
   </body>
 </html>
