@@ -2,7 +2,7 @@ $("document").ready(fetchIndexPageGalleryImages);
 
 function fetchIndexPageGalleryImages() {
   const configurations = {
-    url: "http://localhost:3000/api/gallery/get/image/all/1",
+    url: "http://api.hopeforcommunities.co.ke/api/gallery/get/image/all/1",
     method: "GET",
     timeout: 0,
   };
